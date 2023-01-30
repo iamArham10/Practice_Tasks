@@ -3,7 +3,7 @@ using namespace std;
 int reverse(int num);
 main() {
     cout<<"*********************************************************************************"<<endl;
-    cout<<"                  A program to reverse the given integer                         "<<endl;
+    cout<<"*                 A program to reverse the given integer                        *"<<endl;
     cout<<"*********************************************************************************"<<endl;
     int number;
     cout<<"Enter Your Number: ";
