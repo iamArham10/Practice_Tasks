@@ -5,9 +5,11 @@ using namespace std;
 int binary(int number);
 void color(int number);
 main()
-{
+{   cout<<"*******************************************************************************************************************"<<endl;
+    cout<<"*                                                Soldier Flag                                                     *"<<endl;
+    cout<<"*******************************************************************************************************************"<<endl;
     int number;
-    cout << "Enter number from 0 - 255";
+    cout << "Enter number from 0 - 255: ";
     cin >> number;
     int result = binary(number);
     color(result);
@@ -28,7 +30,7 @@ void color(int number)
     number = number % 100;
     int seventh_bit = number / 10;
     int last_bit = number % 10;
-    if (first_bit = 1)
+    if (first_bit == 1)
     {
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 1);
         cout << "********************" << endl;
@@ -37,7 +39,7 @@ void color(int number)
     {
         cout << "                    " << endl;
     }
-    if (second_bit = 1)
+    if (second_bit == 1)
     {
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 2);
         cout << "********************" << endl;
@@ -46,7 +48,7 @@ void color(int number)
     {
         cout << "                    " << endl;
     }
-    if (third_bit = 1)
+    if (third_bit == 1)
     {
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 3);
         cout << "********************" << endl;
@@ -55,7 +57,7 @@ void color(int number)
     {
         cout << "                    " << endl;
     }
-    if (fourth_bit = 1)
+    if (fourth_bit == 1)
     {
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 4);
         cout << "********************" << endl;
@@ -64,7 +66,7 @@ void color(int number)
     {
         cout << "                    " << endl;
     }
-    if (fifth_bit = 1)
+    if (fifth_bit == 1)
     {
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 5);
         cout << "********************" << endl;
@@ -73,7 +75,7 @@ void color(int number)
     {
         cout << "                    " << endl;
     }
-    if (sixth_bit = 1)
+    if (sixth_bit == 1)
     {
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 6);
         cout << "********************" << endl;
@@ -82,7 +84,7 @@ void color(int number)
     {
         cout << "                    " << endl;
     }
-    if (seventh_bit = 1)
+    if (seventh_bit == 1)
     {
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
         cout << "********************" << endl;
